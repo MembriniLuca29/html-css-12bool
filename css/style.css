@@ -36,4 +36,5 @@
 }
 .offset>.row>[class*="col-"]{
     border: 0px;
+    border-bottom: 1px solid white;
 }
