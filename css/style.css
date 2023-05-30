@@ -12,3 +12,28 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+[class*="col-"]{
+    border: 1px solid white;
+    background-color: cornflowerblue;
+    height: 90px;
+}
+
+.background-green{
+    background-color: lightgreen;
+    height: 60px;
+    border: 1px solid cornflowerblue;
+}
+
+.inside{
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.container{
+    margin-bottom: 60px;
+}
+.offset>.row>[class*="col-"]{
+    border: 0px;
+}

@@ -3,10 +3,14 @@
 
 
 .container{
-    width: 1170px;
+    width: 100%;
     border: 0;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap
+}
 
 
 /* [class*="col-"]{
