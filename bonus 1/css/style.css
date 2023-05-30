@@ -1,0 +1,192 @@
+
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --a:#08172A;
+    --b:#07152B;
+    --c:#07172B;
+    --d:#06152C;
+    --e:#06152D;
+    --f:#05142E;
+    --g:#04142E;
+    --h:#041430;
+    --i:#031331;
+    --j:#031332;
+    --k:#021332;
+    --l:#021333;
+    --m:#021233;
+    --n:#021234;
+    --o:#011234;
+    --p:#011235;
+    --q:#01123E;
+    --r:#021342;
+    --s:#031549;
+    --t:#04194C;
+    --u:#062157;
+    --w:#0A2860;
+    --x:#0B2A62;
+    --y:#0B346B;
+    --z:#0C3A72;
+    --aa:#0C4178;
+    --ab:#0C457B;
+    --ac:#0C477D;
+    --ad:#0C568B;
+    --ae:#0B5F93;
+    --af:#0B679B;
+    --ag:#0B6B9F;
+    --ah:#0B70A3;
+    --ai:#0B75A7;
+    --aj:#0B7BAE;
+    --ak:#0B84B6;
+    --white:whitesmoke
+}
+
+
+/*  general */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class*="col-"]{
+    height: 50px;
+}
+
+
+.a{
+    background-color: var(--a);
+}
+
+.inside{
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.container{
+    margin-bottom: 60px;
+}
+.offset>.row>[class*="col-"]{
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+
+.white{
+    background-color: var(--white);
+}
+
+.b{
+    background-color: var(--b);
+    margin: 0;
+}
+
+.c{
+    background-color: var(--c);
+}
+.d{
+    background-color: var(--d);
+}
+.e{
+    background-color: var(--e);
+}
+.f{
+    background-color: var(--f);
+}
+.g{
+    background-color: var(--g);
+}
+.h{
+    background-color: var(--h);
+}
+.i{
+    background-color: var(--i);
+}
+.j{
+    background-color: var(--j);
+}
+.k{
+    background-color: var(--k);
+}
+.l{
+    background-color: var(--l);
+}
+.m{
+    background-color: var(--m);
+}
+.n{
+    background-color: var(--n);
+}
+.o{
+    background-color: var(--o);
+}
+.p{
+    background-color: var(--p);
+}
+.q{
+    background-color: var(--q);
+}
+.r{
+    background-color: var(--r);
+}
+.s{
+    background-color: var(--s);
+}
+.t{
+    background-color: var(--t);
+}
+.u{
+    background-color: var(--u);
+    
+}
+.v{
+    background-color: var(--v);
+}
+.w{
+    background-color: var(--w);
+}
+.x{
+    background-color: var(--x);
+}
+.y{
+    background-color: var(--y);
+}
+.z{
+    background-color: var(--z);
+}
+.aa{
+    background-color: var(--aa);
+}
+.ab{
+    background-color: var(--ab);
+}
+.ac{
+    background-color: var(--ac);
+}
+.ad{
+    background-color: var(--ad);
+}
+.ae{
+    background-color: var(--ae);
+}
+.af{
+    background-color: var(--af);
+}
+.ag{
+    background-color: var(--ag);
+}
+.ah{
+    background-color: var(--ah);
+}
+.ai{
+    background-color: var(--ai);
+}
+.aj{
+    background-color: var(--aj);
+}
+.ak{
+    background-color: var(--ak);
+}
